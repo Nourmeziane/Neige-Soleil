@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+echo "# Neige-Soleil" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Yamcha95/Neige-Soleil.git
+git push -u origin main
